@@ -224,5 +224,25 @@ body.jsenabled #gridshadebox_content.hide_content {
 #gridshadebox_content ul.gtopics {
     margin: 0 15px 10px;
 }
+/*Tamaño de iconos*/
+div#shadebox.w-profile{
+    width: 100%
+}
+#shadebox_content{
+width:100%;
+}
+#shadebox_content .icons{
+    text-align: center;
+}
+
+#shadebox_content .icons li a img {
+    max-width: 100px!important;
+}
+
+#shadebox_content .icons li:hover {
+    background-color: #f1f2f2;
+    color: #333;
+}
+
 
 /* @end */
